@@ -1,0 +1,23 @@
+{
+  "name": "eventify",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/devansh016/Eventify.git"
+  },
+  "author": "Devansh Chaudhary",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/devansh016/Eventify/issues"
+  },
+  "homepage": "https://github.com/devansh016/Eventify#readme",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.18.1"
+  }
+}
