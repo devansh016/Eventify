@@ -1,0 +1,20 @@
+[
+    {
+        "eventID": "1",
+        "title": "Git & Github Workshop",
+        "description": "A workshop on Git and GitHub, where you'll learn about version control and how to create your first pull request. We'll be assisting you in getting started with Hacktoberfest and bagging some awesome swags!",
+        "image": "assets/Speaker_Imgs/devansh-chaudhary.jpg",
+        "date": "October 1st, 2022",
+        "time": "05:00 PM IST",
+        "price": "FREE"
+    },
+    {
+        "eventID": "2",
+        "title": "C Sessions",
+        "description": "Suspendisse sagittis, eros ac mattis posuere, sem dui placerat quam, eu dapibus tortor purus et lorem. Nulla non condimentum enim, at facilisis tellus.",
+        "date": "October 10th, 2022",
+        "image": "assets/Speaker_Imgs/devansh-chaudhary.jpg",
+        "time": "05:30 PM IST",
+        "price": "INR 50"
+    }
+]

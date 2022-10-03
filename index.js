@@ -9,11 +9,20 @@ app.use(cors());
 app.use(express.json()); 
 app.use(express.urlencoded({ extended: false }));
 
+// EJS engine
+app.set("view engine", "ejs");
+app.set("views", "public");
+
 //Serve static files
 app.use(express.static(path.join(__dirname, "public")));
 
+// Event Route
 const eventRoute = require("./routes/event-route.js");
 app.use("/event", eventRoute);
+
+// Main Route
+const mainRoute = require("./routes/main-route.js");
+app.use("/", mainRoute);
 
 // Database Connection
 // const connection = require("./utils/database");
