@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" href="../css/workshops.css" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.3/font/bootstrap-icons.css">
+    <link rel="icon" type="image/x-icon" href="../assets/icon.svg" />
+    <link href="//netdna.bootstrapcdn.com/font-awesome/3.2.1/css/font-awesome.css" rel="stylesheet" />
+    <link rel="stylesheet" type="text/css" href="../css/admin.css">
+</head>
+
+<body>
+    <div class="navbar">
+        <a class="nav-content" href="https://juit.acm.org/" target="_blank">
+            <img src="../assets/logo.svg" alt="" height="60" width="350" />
+        </a>
+    </div>
+    <div class="container">
+
+        <div class="fields">
+            <div class="title">
+                <h1>Admin Dashboard</h1>
+            </div>
+            <span class="back-btn" onclick="document.location='../index.html'">Back to Homepage</span>
+
+            <!-- <div class="button">
+                <button class="btn" id="" onclick="">Back to Homepage</button>
+            </div> -->
+
+
+            <div class="button">
+                <button class="btn" id="addEventButton" onclick="showEvent()">Add Event</button>
+            </div>
+
+            <div class="events" id="addEvent">
+                <div class="content">
+                    <form method="post" name="Form">
+                        <div class="user-details">
+                            <div class="input-box">
+                                <span class="details">Event Name</span>
+                                <input type="text" placeholder="Enter the event name" id="eventNameField" required />
+                            </div>
+                            <div class="input-box">
+                                <span class="details">Event Date</span>
+                                <input type="date" placeholder="Enter the event date" name="eventDate" required />
+                            </div>
+                            <div class="input-box">
+                                <span class="details">Event Time</span>
+                                <input type="time" placeholder="Enter the event time" name="eventTime" required />
+                            </div>
+                            <div class="input-box">
+                                <span class="details">Event Details</span>
+                                <textarea placeholder="Enter event details" name="eventDetails" rows="5" cols="50"
+                                    required></textarea>
+                            </div>
+                        </div>
+
+                        <div class="button">
+                            <input type="submit" value="Proceed to Checkout" id="checkout-btn" />
+                        </div>
+                    </form>
+                </div>
+            </div>
+
+            <div class="button">
+                <button class="btn" id="updateEventButton" onclick="showUpdateEvent()">Update Event</button>
+            </div>
+
+            <div class="events" id="updateEvent">
+                <div class="content">
+                    <form method="post" name="Form">
+                        <div class="user-details">
+                            <div class="input-box">
+                                <span class="details">Event Name</span>
+                                <input type="text" placeholder="Enter the event name" id="eventNameField" required />
+                            </div>
+                            <div class="input-box">
+                                <span class="details">Event Date</span>
+                                <input type="date" placeholder="Enter the event date" name="eventDate" required />
+                            </div>
+                            <div class="input-box">
+                                <span class="details">Event Time</span>
+                                <input type="time" placeholder="Enter the event time" name="eventTime" required />
+                            </div>
+                            <div class="input-box">
+                                <span class="details">Event Details</span>
+                                <textarea placeholder="Enter event details" name="eventDetails" rows="5" cols="50"
+                                    required></textarea>
+                            </div>
+                        </div>
+
+                        <div class="button">
+                            <input type="submit" value="Proceed to Checkout" id="checkout-btn" />
+                        </div>
+                    </form>
+                </div>
+            </div>
+
+            <div class="button">
+                <button class="btn" id="deleteEventButton" onclick="showDeleteEvent()">Delete event</button>
+            </div>
+
+            <div class="events" id="deleteEvent">
+                <div class="content">
+                    <form method="post" name="Form">
+                        <div class="user-details">
+                            <div class="input-box">
+                                <span class="details">Event Name</span>
+                                <input type="text" placeholder="Enter the event name" id="eventNameField" required />
+                            </div>
+                            <div class="input-box">
+                                <span class="details">Event Date</span>
+                                <input type="date" placeholder="Enter the event date" name="eventDate" required />
+                            </div>
+                            <div class="input-box">
+                                <span class="details">Event Time</span>
+                                <input type="time" placeholder="Enter the event time" name="eventTime" required />
+                            </div>
+                            <div class="input-box">
+                                <span class="details">Event Details</span>
+                                <textarea placeholder="Enter event details" name="eventDetails" rows="5" cols="50"
+                                    required></textarea>
+                            </div>
+                        </div>
+
+                        <div class="button">
+                            <input type="submit" value="Proceed to Checkout" id="checkout-btn" />
+                        </div>
+                    </form>
+                </div>
+            </div>
+
+        </div>
+
+        <script src="../Js/adminpage.js"></script>
+</body>
+
+</html>

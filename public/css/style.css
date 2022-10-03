@@ -82,6 +82,13 @@ body {
   border-radius: 5px;
   background: linear-gradient(135deg, #5cff68, #05caff);
 }
+/* Link to the admin page */
+
+.admin-link-container{
+  margin: 10px;
+}
+
+/* ======================== */
 
 /* ============================================================================== */
 /* Speaker Cards */
