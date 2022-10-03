@@ -234,6 +234,11 @@ body {
   color: white;
   padding: 1rem;
   background-color: #1b2731;
+  transition: 0.4s all ease-in-out 0s;
+}
+
+.btn:hover{
+  background-color: #6173f4;
 }
 
 @media (max-width: 800px) {
