@@ -16,11 +16,11 @@ const eventRoute = require("./routes/event-route.js");
 app.use("/event", eventRoute);
 
 // Database Connection
-const connection = require("./utils/database");
-connection.on("error", console.error.bind(console, "connection error: "));
-connection.once("open", function () {
-    console.log("Database Connected successfully");
-})
+// const connection = require("./utils/database");
+// connection.on("error", console.error.bind(console, "connection error: "));
+// connection.once("open", function () {
+//     console.log("Database Connected successfully");
+// })
 
 // Starting App
 app.listen(port, function(){

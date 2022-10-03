@@ -1,4 +1,4 @@
-const Event = require("../models/event-Model.js");
+const Event = require("../models/event-model.js");
 const { v4: uuidv4 } = require('uuid');
 
 async function createEvent ({ title, description, date}){
