@@ -1,12 +1,82 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Eventify</title>
-</head>
-<body>
-    Welcome to Eventify!
-</body>
+  <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" href="css/style.css" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.3/font/bootstrap-icons.css">
+    <link rel="icon" type="image/x-icon" href="assets/icon.svg" />
+    <link href="//netdna.bootstrapcdn.com/font-awesome/3.2.1/css/font-awesome.css" rel="stylesheet"/>
+  </head>
+  <body>
+    <div class="navbar">
+      <a class="nav-content" href="https://juit.acm.org/" target="_blank">
+        <img src="assets/logo.svg" alt="" height="60" width="350" />
+      </a>
+    </div>
+
+    <div class="container">
+
+      <div class="header">
+        <div class="title">
+          <h1>Welcome to ACM Workshops!</h1>
+        </div>
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Provident
+          officia nostrum sed neque dolorem, nam sit consequatur accusantium nemo,
+          dolor, itaque ipsa odio corporis non voluptas quod. Dolorum, recusandae
+          quisquam.
+        </p>
+      </div>
+  
+      <!-- Workshop Tiles -->
+      <div class="wrapper-flex">
+        <div class="speaker-container">
+          <img src="assets/price-tag.png" id="price-tag">
+          <div id="price">INR 500</div>
+          <div class="banner-img"></div>
+          <img
+            src="assets/Speaker_Imgs/devansh-chaudhary.jpg"
+            alt="profile image"
+            class="profile-img"
+          />
+          <h1 class="name">Workshop 1</h1>
+          <div class="description">
+            <div class="timings">
+              <p><i class="bi bi-calendar-fill"></i>December 5th, 2022</p>
+              <p><i class="bi bi-clock-fill"></i>08:00 PM IST</p>
+            </div>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Impedit
+            blanditiis nihil officia quas, ullam distinctio molestias
+            necessitatibus. Totam non, nostrum sint ducimus quas ad, reiciendis
+            hic eaque ipsam, id qui.
+          </div>
+          <button class="btn" onclick="document.location='/workshops/workshop1.html'">Register Now</button>
+        </div>
+        <div class="speaker-container">
+          <img src="assets/price-tag.png" id="price-tag">
+          <div id="price">INR 500</div>
+          <div class="banner-img"></div>
+          <img
+            src="assets/Speaker_Imgs/devansh-chaudhary.jpg"
+            alt="profile image"
+            class="profile-img"
+          />
+          <h1 class="name">Workshop 2</h1>
+          <div class="description">
+            <div class="timings">
+              <p><i class="bi bi-calendar-fill"></i>June 5th, 2022</p>
+              <p><i class="bi bi-clock-fill"></i>08:00 PM IST</p>
+            </div>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Impedit
+            blanditiis nihil officia quas, ullam distinctio molestias
+            necessitatibus. Totam non, nostrum sint ducimus quas ad, reiciendis
+            hic eaque ipsam, id qui.
+          </div>
+          <button class="btn" onclick="document.location='/workshops/workshop1.html'">Register Now</button>
+        </div>
+        </div>
+      </div>
+
+    </div>
+  </body>
 </html>
