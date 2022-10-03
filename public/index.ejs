@@ -18,15 +18,15 @@
 
       <div class="header">
         <div class="title">
-          <h1> <%= data.profile.welcomeMessage %></h1>
+          <h1> <%= profile.welcomeMessage %></h1>
         </div>
         <p>
-            <%= data.profile.description %>
+            <%= profile.description %>
         </p>
       </div>
-        <!-- Workshop Tiles -->
+    <!-- Workshop Tiles -->
       <div class="wrapper-flex">
-        <% data.events.forEach( event => { %>
+        <% events.forEach( event => { %>
         <div class="speaker-container">
           <img src="assets/price-tag.png" id="price-tag">
           <div id="price"> <%= event.price %> </div>

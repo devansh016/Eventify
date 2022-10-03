@@ -6,9 +6,9 @@ const path = require("path");
 router.get("/", servehomepage);
 
 function servehomepage(req, res, next){
-    var data =JSON.parse(fs.readFileSync(path.join(__dirname, "../public/data.json"),"utf8"))
-    console.log(data);
-    res.render("index.ejs", { data });
+    var events = JSON.parse(fs.readFileSync(path.join(__dirname, "../events.json"),"utf8"))
+    var profile =JSON.parse(fs.readFileSync(path.join(__dirname, "../config.json"),"utf8"))
+    res.render("index.ejs", { events, profile });
 }
 
 module.exports = router;
