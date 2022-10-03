@@ -1,0 +1,26 @@
+{
+    "profile": {
+        "name": "Eventify",
+        "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Provident officia nostrum sed neque dolorem, nam sit consequatur accusantium nemo, dolor, itaque ipsa odio corporis non voluptas quod. Dolorum, recusandae quisquam.", 
+        "welcomeMessage": "Welcome to Eventify!"
+    },
+    "events":
+    [
+        {
+            "title": "Git & Github Workshop",
+            "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras condimentum justo justo, ac condimentum odio lacinia quis.",
+            "image": "assets/Speaker_Imgs/devansh-chaudhary.jpg",
+            "date": "December 5th, 2022",
+            "time": "08:00 PM IST",
+            "price": "INR 500"
+        },
+        {
+            "title": "OpenSource Workshop",
+            "description": "Suspendisse sagittis, eros ac mattis posuere, sem dui placerat quam, eu dapibus tortor purus et lorem. Nulla non condimentum enim, at facilisis tellus.",
+            "date": "December 10th, 2022",
+            "image": "assets/Speaker_Imgs/devansh-chaudhary.jpg",
+            "time": "08:30 PM IST",
+            "price": "INR 500"
+        }
+    ]
+}
