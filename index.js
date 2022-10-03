@@ -12,6 +12,9 @@ app.use(express.urlencoded({ extended: false }));
 //Serve static files
 app.use(express.static(path.join(__dirname, "public")));
 
+const eventRoute = require("./routes/event-route.js");
+app.use("/event", eventRoute);
+
 // Database Connection
 const connection = require("./utils/database");
 connection.on("error", console.error.bind(console, "connection error: "));
