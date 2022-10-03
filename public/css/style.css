@@ -210,6 +210,10 @@ body {
 .timings {
   font-weight: 600;
   margin-bottom: 8px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
 }
 
 .timings p {
@@ -219,6 +223,7 @@ body {
   padding: 1px 8px 1px 8px;
   font-size: 16px;
   margin: 4px;
+  white-space: nowrap;
 }
 
 .timings p i {
