@@ -1,7 +1,7 @@
 const Event = require("../models/event-Model.js");
 const { v4: uuidv4 } = require('uuid');
 
-async function createEvent ({ title, description, date}){
+const createEvent = async ({ title, description, date}) => {
     try {
         // Create Event
         const event = new Event ({ "eventID": uuidv4(), title, description, date });
@@ -12,7 +12,7 @@ async function createEvent ({ title, description, date}){
     }
 }
 
-async function getAllEvent () {
+const getAllEvent = async () => {
     try {
         // Get all events
         const event = await Event.find();
@@ -22,7 +22,7 @@ async function getAllEvent () {
     }
 }
 
-async function getEvent ({ eventID }){
+const getEvent = async  ({ eventID }) => {
     try {
         // Get event by eventID
         const event = await Event.findOne({ eventID });
@@ -32,7 +32,7 @@ async function getEvent ({ eventID }){
     }
 }
 
-async function deleteEvent ({ eventID }){
+const deleteEvent = async  ({ eventID }) => {
     try {
         // Check if event exists
         const event = await Event.findOne({ eventID });
