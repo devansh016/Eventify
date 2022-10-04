@@ -111,7 +111,7 @@ heroku autocomplete --refresh-cache
 # upload container (heroku.yml)
 heroku update beta
 heroku plugins:install @heroku-cli/plugin-manifest
-export HEROKU_APP=eventifyify
+export HEROKU_APP=eventify
 heroku create $HEROKU_APP --manifest
 git remote set-url origin https://git.heroku.com/${HEROKU_APP}.git
 git add .
