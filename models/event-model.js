@@ -24,7 +24,10 @@ const eventSchema = new Schema({
         trim: true,
         required: [true, 'Please provide a description for an event'],
     },
-    date: { type: Date, required: [true, 'Please provide date for an event'] },
+    date: {
+        type: Date, 
+        required: [true, 'Please provide date for an event']
+    },
     createdDate: { type: Date, default: Date.now }
 });
 
