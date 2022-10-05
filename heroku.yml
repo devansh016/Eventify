@@ -1,0 +1,9 @@
+setup:
+  config:
+    APP_NAME: eventify
+build:
+  docker:
+    web: Dockerfile.web
+# * Defaults to Dockerfile CMD if `run` isn't declared
+# run:
+#   web: node index.js
