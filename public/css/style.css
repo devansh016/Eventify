@@ -248,6 +248,11 @@ body {
   background-color: #1b2731;
 }
 
+.btn:hover {
+  background-color: rgb(130, 240, 209);
+  transition: 0.5s;
+}
+
 @media (max-width: 800px) {
   .header {
     margin-bottom: 25px;
