@@ -1,7 +1,7 @@
 {
   "name": "eventify",
   "version": "1.0.0",
-  "description": "",
+  "description": "[Eventify]([https://eventify-demo.herokuapp.com/])(https://eventify-demo.herokuapp.com/) is a event management tool with payment integration and admin tools.",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
@@ -19,11 +19,16 @@
   },
   "homepage": "https://github.com/devansh016/Eventify#readme",
   "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "cookie-parser": "^1.4.6",
     "cors": "^2.8.5",
+    "crypto": "^1.0.1",
     "dotenv": "^16.0.3",
     "ejs": "^3.1.8",
     "express": "^4.18.1",
+    "jsonwebtoken": "^8.5.1",
     "mongoose": "^6.6.3",
-    "uuid": "^9.0.0"
+    "uuid": "^9.0.0",
+    "validator": "^13.7.0"
   }
 }
