@@ -6,21 +6,21 @@ router.post("/", createEvent);
 router.delete("/",deleteEvent);
 router.get("/", getEvent);
 
-function createEvent(req, res, next){
+const  createEvent = (req, res, next) => {
     eventController.createEvent(req.body)
         .then( data => {
             res.status(data.status).send(data);
         })
 }
 
-function deleteEvent(req, res, next){
+const deleteEvent = (req, res, next) => {
     eventController.deleteEvent(req.body)
         .then( data => {
             res.status(data.status).send(data);
         })
 }
 
-function getEvent(req, res, next){
+const getEvent = (req, res, next) => {
     if(req.body.eventID){
         eventController.getEvent(req.body)
             .then( data => {
